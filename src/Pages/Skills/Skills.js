@@ -4,7 +4,6 @@ import {
   FaReact,
   FaNodeJs,
   FaAws,
-  FaPython,
   FaDatabase,
 } from "react-icons/fa";
 import {
