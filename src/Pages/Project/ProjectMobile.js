@@ -16,8 +16,8 @@ const ProjectMob = () => {
       description: "A simple website using HTML, CSS & JS to showcase apple-related info beautifully.",
       image: apple,
       background: "#F5F5F5",
-      liveDemo: "#", // Replace
-      gitHub: "#",    // Replace
+      liveDemo: "https://heavenlya.netlify.app/", // Replace
+      gitHub: "https://github.com/Vaishnavis04/landing-page",    // Replace
     },
     {
       id: 2,
@@ -61,8 +61,8 @@ const ProjectMob = () => {
       description: "Streamline HR tasks with real-time status updates and task tracking.",
       image: Hr,
       background: "#FCFCFC",
-      liveDemo: "#",
-      gitHub: "#",
+      liveDemo: "https://hr-flows.netlify.app/",
+      gitHub: "https://github.com/Vaishnavis04/HR-Flow",
     },
   ];
 
