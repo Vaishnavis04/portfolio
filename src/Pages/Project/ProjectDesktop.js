@@ -33,8 +33,8 @@ const Project = () => {
             description:"A simple website built using HTML, CSS, and JavaScript,showcasing a clean and user-friendly interface for displaying apple-related information.",
             image: apple,
             background: "linear-gradient(#74EBD580, #ACB6E580)",
-            liveDemo: "#",
-            gitHub: "#"
+            liveDemo: "https://heavenlya.netlify.app/",
+            gitHub: "https://github.com/Vaishnavis04/landing-page"
         },
         {
             id: 2,
@@ -78,8 +78,8 @@ const Project = () => {
             description: "A dynamic HR management platform for seamless task assignment, employee progress tracking, and real-time status updates.",
             image: Hr,
             background: "linear-gradient(#5F307480, #3F5B8380)",
-            liveDemo: "#",
-            gitHub: "#"
+            liveDemo: "https://hr-flows.netlify.app/",
+            gitHub: "https://github.com/Vaishnavis04/HR-Flow"
         }
     ];
 
