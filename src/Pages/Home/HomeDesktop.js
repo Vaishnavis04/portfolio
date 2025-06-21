@@ -232,8 +232,8 @@ const Hero = () => {
     alt="Profile"
     style={{
       width: "350px",
-      height: "550px",
-      borderRadius: "50%",
+      height: "500px",
+      borderRadius: "40%",
       objectFit: "cover",
       transition: "transform 0.3s ease-in-out",
     }}
