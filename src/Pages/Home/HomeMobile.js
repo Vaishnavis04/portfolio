@@ -86,6 +86,7 @@ const HeroMobile = () => {
               color: "#333333",
               fontSize: "24px",
             }}
+            aria-label="Toggle menu"
           >
             {!menuOpen && <FaBars />}
           </button>
@@ -122,6 +123,7 @@ const HeroMobile = () => {
               alignSelf: "flex-end",
               marginRight: "15px",
             }}
+            aria-label="Close menu"
           >
             ✖
           </button>
@@ -133,18 +135,20 @@ const HeroMobile = () => {
             { name: "Skills", ref: skillsRef },
             { name: "Contact", ref: contactRef },
           ].map((item, index) => (
-            <a
+            <button
               key={index}
               onClick={() => handleScroll(item.ref)}
               style={{
-                textDecoration: "none",
+                background: "none",
+                border: "none",
                 color: "#333333",
                 fontSize: "16px",
                 cursor: "pointer",
+                padding: "10px 20px",
               }}
             >
               {item.name}
-            </a>
+            </button>
           ))}
         </div>
 
@@ -168,7 +172,7 @@ const HeroMobile = () => {
             style={{
               fontSize: "14px",
               fontWeight: "bold",
-              color: "#6366F1", // Optional accent
+              color: "#6366F1",
             }}
           >
             WELCOME
@@ -227,8 +231,12 @@ const HeroMobile = () => {
         </div>
       </div>
 
+      {/* Section Anchors */}
+      <div ref={homeRef}></div>
       <Icons />
-      <Experience />
+      <div ref={experienceRef}>
+        <Experience />
+      </div>
       <div ref={projectRef}>
         <Project />
       </div>
@@ -244,3 +252,4 @@ const HeroMobile = () => {
 };
 
 export default HeroMobile;
+
